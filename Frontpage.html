@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <form>
+                <div class="form-group">
+                    <label class="col-form-label" for="Message">Send message!</label>
+                    <input type="text" class="form-control" id="Message" placeholder="Example input">
+                </div>
+                <div class="form-group">
+                    <label class="col-form-label" for="ResponseInput">Response</label>
+                    <input type="text" class="form-control" id="Response" placeholder="Another input">
+                </div>
+                <button type="submit">Send !</button>
+            </form>
+            <div class="row">
+                <button id="authorize-button" style="display: none;">Authorize</button>
+                <button id="signout-button" style="display: none;">Sign Out</button>
+                <pre id="content"></pre>
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+    <script src="/Js/GoogleCalendar.js"></script>
+    <script async defer src="https://apis.google.com/js/api.js"
+    onload="this.onload=function(){};handleClientLoad()"
+    onreadystatechange="if (this.readyState === 'complete') this.onload()">
+  </script>
+</body>
+</html>
