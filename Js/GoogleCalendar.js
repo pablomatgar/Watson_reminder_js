@@ -1,4 +1,5 @@
-  // Client ID and API key from the Developer Console
+// Pablo Mateos García  
+// Client ID and API key from the Developer Console
     //   var CLIENT_ID = '575235677629-n4ptqea7o3k6q9d6e0befbiit4o4fiql.apps.googleusercontent.com';
     var API_KEY = 'AIzaSyALNU53ILd7tCV-n5Ri_7TQ2ukzB0T8SAM';
     var CLIENT_ID = '575235677629-1prgkffpnce2o1oonttqanigkddt5c4b.apps.googleusercontent.com';
